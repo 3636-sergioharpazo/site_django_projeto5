@@ -151,7 +151,7 @@ LOGIN_URL ="login"
 
 
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR.joinpath("staticfiles")
 STATICFILES_DIRS=[
     BASE_DIR.joinpath('static')
